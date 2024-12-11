@@ -9,7 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
 import { FormularioTemplateComponent } from './pages/formulario-template/formulario-template.component';
-import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -24,8 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpClientModule 
+    AppRoutingModule
     
   ],
   providers: [],
