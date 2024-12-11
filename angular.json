@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AppSistemaFormulario": {
+    "appSistemaFormulario": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AppSistemaFormulario:build:production"
+              "buildTarget": "appSistemaFormulario:build:production"
             },
             "development": {
-              "buildTarget": "AppSistemaFormulario:build:development"
+              "buildTarget": "appSistemaFormulario:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -102,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
